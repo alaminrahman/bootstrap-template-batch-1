@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Landing Page</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logo.png" alt="">
+                </a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="actions">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex gap-3 align-items-center">
+
+                            <li class="nav-item">
+                                <a class="nav-link login-btn" href="login.html">Login</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link signup-btn" href="signup.html">Sign Up</a>
+                            </li>
+                            
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle d-flex align-items-center gap-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                   
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="14" viewBox="0 0 21 14" fill="none">
+                                                <path d="M20.6362 0.5H0.63623V13.5H20.6362V0.5Z" fill="#F0F0F0"/>
+                                                <path d="M20.6362 2.12476H0.63623V3.7496H20.6362V2.12476Z" fill="#D80027"/>
+                                                <path d="M20.6362 5.37476H0.63623V6.9996H20.6362V5.37476Z" fill="#D80027"/>
+                                                <path d="M20.6362 8.62451H0.63623V10.2494H20.6362V8.62451Z" fill="#D80027"/>
+                                                <path d="M20.6362 11.8748H0.63623V13.4996H20.6362V11.8748Z" fill="#D80027"/>
+                                                <path d="M10.6362 0.5H0.63623V7.50001H10.6362V0.5Z" fill="#2E52B2"/>
+                                                <path d="M4.53551 3.36768L4.37445 3.85075H3.85352L4.27504 4.14915L4.11398 4.63219L4.53551 4.33379L4.95676 4.63219L4.79574 4.14915L5.21727 3.85075H4.69629L4.53551 3.36768Z" fill="#F0F0F0"/>
+                                                <path d="M4.69629 5.59388L4.53551 5.11084L4.37445 5.59388H3.85352L4.27504 5.89232L4.11398 6.37536L4.53551 6.07692L4.95676 6.37536L4.79574 5.89232L5.21727 5.59388H4.69629Z" fill="#F0F0F0"/>
+                                                <path d="M2.49467 5.59388L2.33385 5.11084L2.17279 5.59388H1.65186L2.07338 5.89232L1.91232 6.37536L2.33385 6.07692L2.75514 6.37536L2.59412 5.89232L3.01557 5.59388H2.49467Z" fill="#F0F0F0"/>
+                                                <path d="M2.33385 3.36768L2.17279 3.85075H1.65186L2.07338 4.14915L1.91232 4.63219L2.33385 4.33379L2.75514 4.63219L2.59412 4.14915L3.01557 3.85075H2.49467L2.33385 3.36768Z" fill="#F0F0F0"/>
+                                                <path d="M4.53551 1.62427L4.37445 2.10738H3.85352L4.27504 2.40582L4.11398 2.88886L4.53551 2.59042L4.95676 2.88886L4.79574 2.40582L5.21727 2.10738H4.69629L4.53551 1.62427Z" fill="#F0F0F0"/>
+                                                <path d="M2.33385 1.62427L2.17279 2.10738H1.65186L2.07338 2.40582L1.91232 2.88886L2.33385 2.59042L2.75514 2.88886L2.59412 2.40582L3.01557 2.10738H2.49467L2.33385 1.62427Z" fill="#F0F0F0"/>
+                                                <path d="M6.73713 3.36768L6.57611 3.85075H6.05518L6.47666 4.14915L6.31568 4.63219L6.73713 4.33379L7.15846 4.63219L6.9974 4.14915L7.41893 3.85075H6.89799L6.73713 3.36768Z" fill="#F0F0F0"/>
+                                                <path d="M6.89799 5.59388L6.73713 5.11084L6.57611 5.59388H6.05518L6.47666 5.89232L6.31568 6.37536L6.73713 6.07692L7.15846 6.37536L6.9974 5.89232L7.41893 5.59388H6.89799Z" fill="#F0F0F0"/>
+                                                <path d="M9.09961 5.59388L8.93879 5.11084L8.77773 5.59388H8.25684L8.67828 5.89232L8.51727 6.37536L8.93879 6.07692L9.36008 6.37536L9.19902 5.89232L9.62055 5.59388H9.09961Z" fill="#F0F0F0"/>
+                                                <path d="M8.93879 3.36768L8.77773 3.85075H8.25684L8.67828 4.14915L8.51727 4.63219L8.93879 4.33379L9.36008 4.63219L9.19902 4.14915L9.62055 3.85075H9.09961L8.93879 3.36768Z" fill="#F0F0F0"/>
+                                                <path d="M6.73713 1.62427L6.57611 2.10738H6.05518L6.47666 2.40582L6.31568 2.88886L6.73713 2.59042L7.15846 2.88886L6.9974 2.40582L7.41893 2.10738H6.89799L6.73713 1.62427Z" fill="#F0F0F0"/>
+                                                <path d="M8.93879 1.62427L8.77773 2.10738H8.25684L8.67828 2.40582L8.51727 2.88886L8.93879 2.59042L9.36008 2.88886L9.19902 2.40582L9.62055 2.10738H9.09961L8.93879 1.62427Z" fill="#F0F0F0"/>
+                                              </svg>
+                                        </span>
+                                        <span>EN</span>
+                                </a>
+    
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                    <li><a class="dropdown-item" href="#">Bangla</a></li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                    <!--End actions-->
+
+                </div>
+
+                
+            </div>
+        </nav>
+        <!--End Navbar-->
+
+        <!--Hero -->
+        <section class="hero-section" id="hero-section">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <div class="hero-text-content">
+                            <h1>Your Website, Your Brand’s Story, Your Way</h1>
+                            <p>Design the website you’ve always envisioned with our user-friendly builder. Combine sleek templates, creative freedom, and robust functionality to tell your story online.</p>
+                            <a class="global-btn btn">
+                                <span>Get Started</span>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                    <path d="M12 16.3628L16 12.3628M16 12.3628L12 8.36279M16 12.3628H8M22 12.3628C22 17.8856 17.5228 22.3628 12 22.3628C6.47715 22.3628 2 17.8856 2 12.3628C2 6.83995 6.47715 2.36279 12 2.36279C17.5228 2.36279 22 6.83995 22 12.3628Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col-md-6">
+
+                        <div class="hero-img-content d-flex justify-content-center align-items-center">
+                            <img src="./img/hero.png" class="hero-img img-fluid" alt="Hero">
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--End Hero -->
+
+
+        <!-- Features -->
+        <section class="features-section" id="features-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="feature-header text-center">
+                            <h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="4" viewBox="0 0 20 4" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.72559C0 0.897159 0.671573 0.225586 1.5 0.225586L18.5 0.225586C19.3284 0.225586 20 0.897159 20 1.72559C20 2.55401 19.3284 3.22559 18.5 3.22559L1.5 3.22559C0.671573 3.22559 0 2.55401 0 1.72559Z" fill="#3D05DD"/>
+                                </svg> 
+                              
+                                Feature
+                            </h3>
+                            <h1>Discover the Features That Set Us Apart</h1>
+                        </div>
+
+                    </div>
+                </div>
+                <!--End Row-->
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="feature-wrapper d-flex">
+
+                            <div class="feature-item-1 feature-item text-center d-flex gap-4 flex-column justify-content-center align-items-center">
+                                <div class="icon">
+                                    <img src="./img/features/i1.png" alt="">
+                                </div>
+
+                                <div class="content d-flex gap-4 flex-column">
+                                    <h3>Effortless & Stunning Results</h3>
+                                    <p>Launch your website without hassle. Our platform features pre-designed templates and an intuitive editor that make creating a professional site a simple and enjoyable process.</p>
+                                </div>
+
+                            </div>
+                            <!--End Item-->
+
+                            <div class="feature-item-2 feature-item text-center d-flex gap-4 flex-column justify-content-center align-items-center">
+                                <div class="icon">
+                                    <img src="./img/features/i2.png" alt="">
+                                </div>
+
+                                <div class="content d-flex gap-4 flex-column">
+                                    <h3>Effortless & Stunning Results</h3>
+                                    <p>Launch your website without hassle. Our platform features pre-designed templates and an intuitive editor that make creating a professional site a simple and enjoyable process.</p>
+                                </div>
+
+                            </div>
+                            <!--End Item-->
+
+                            <div class="feature-item-3 feature-item text-center d-flex gap-4 flex-column justify-content-center align-items-center">
+                                <div class="icon">
+                                    <img src="./img/features/i3.png" alt="">
+                                </div>
+
+                                <div class="content d-flex gap-4 flex-column">
+                                    <h3>Effortless & Stunning Results</h3>
+                                    <p>Launch your website without hassle. Our platform features pre-designed templates and an intuitive editor that make creating a professional site a simple and enjoyable process.</p>
+                                </div>
+
+                            </div>
+                            <!--End Item-->
+
+
+                        </div>
+
+                    </div>
+                </div>
+                <!--End row-->
+
+
+            </div>
+        </section>
+        <!--End Features -->
+
+        <!-- About Company -->
+        <section class="about-company-section" id="about-company-section">
+            <div class="container">
+                <div class="d-flex gap-4 align-items-center justify-content-between">
+
+                    <div class="">
+                        <div class="about-company-img-content">
+                            <img src="./img/about-company.png">
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="about-company-text-content d-flex flex-column ">
+                            <h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="4" viewBox="0 0 21 4" fill="none">
+                                <path d="M2 2.07373L19 2.07373" stroke="#3D05DD" stroke-width="3" stroke-linecap="round"/>
+                                </svg>
+                                About Us
+                            </h3>
+                            <h1>Supporting Your Online Growth</h1>
+                            <p>Our mission is to help creators and businesses thrive in the digital space. Whether you're launching a store, hosting a blog, or building a community site, our platform ensures flexibility and growth. With built-in integrations and modern tools, we make it easy to create, expand, and succeed online.</p>
+                            
+                            <div class="actions">
+                                <a href="#" class="global-btn btn">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- End About Company -->
+
+
+        <!-- Footer -->
+        <section class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="./img/logo.png" alt="Footer Logo"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+
+                        <div class="usefull-links">
+                            <h3>Usefull Links</h3>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><a href="#" class="nav-link">About Us</a></li>
+                                <li class="list-group-item"><a href="#" class="nav-link">Contact Us</a></li>
+                                <li class="list-group-item"><a href="#" class="nav-link">Cookie Policy</a></li>
+                                <li class="list-group-item"><a href="#" class="nav-link">Terms & Conditions</a></li>
+                                <li class="list-group-item"><a href="#" class="nav-link">Privacy Policy</a></li>
+                                <li class="list-group-item"><a href="#" class="nav-link">Unsubscribe</a></li>
+                              </ul>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="contact-information">
+                            <h3>Contact Information</h3>
+
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Email : support@example.com</li>
+                                <li class="list-group-item">Phone : +365859556689</li>
+                                <li class="list-group-item">Working Ours : Sunday - Friday</li>
+                                <li class="list-group-item">Address : California, USA</li>
+                              </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <!--End Row-->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="payment-methods d-flex gap-3 justify-content-center">
+                            <img src="./img/master.png" alt="">
+                            <img src="./img/visa.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--End Row-->
+
+                <div class="copyright text-center py-3">
+                    <p class="m-0">Copyright &copy; Budgetbscope 2023. Blindscope limited - CR: 14031689 - 21 cromwell road, ringsfield, suffolk, Beccles Nr34 8lr, United Kingdom | All rights reserved.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- End Footer -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+/* Global Variables */
+:root {
+    --color-primary: #3d05dd;
+    --color-secondary: #C1ABFF;
+    --color-text-dark: #121212;
+    --color-black: #191B1F;
+    --color-white: #ffffff;
+    --color-tertiary: #F04438;
+
+    /* Font Family */
+    --font-family: "Parkinsans", serif;
+}
+
+/* End Global Variables*/
+
+/* Global Component CSS */
+
+.global-btn {
+    background: var(--color-primary);
+    padding: 12px 20px;
+    color: var(--color-white);
+}
+
+.global-btn:hover {
+    background: none;
+    border: 1px solid var(--color-primary);
+    padding: 12px 20px;
+    color: var(--color-primary);
+}
+
+.global-outline-btn {
+    border: 1px solid var(--color-primary);
+    padding: 12px 20px;
+    color: var(--color-primary);
+}
+
+.global-outline-btn:hover {
+    background: var(--color-primary);
+    padding: 12px 20px;
+    color: var(--color-white);
+}
+
+.btn {
+    border-radius: 0px;
+}
+/* End Global Component CSS */
+
+body {
+    font-family: var(--font-family);
+}
+
+/* Navbar */
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+.navbar-collapse .actions .login-btn {
+    background: var(--color-primary);
+    padding: 12px 20px;
+    color: var(--color-white);
+}
+
+.navbar-collapse .actions .login-btn:hover {
+    background: none;
+    border: 1px solid var(--color-primary);
+    padding: 12px 20px;
+    color: var(--color-primary);
+}
+
+.navbar-collapse .actions .signup-btn {
+    border: 1px solid var(--color-primary);
+    padding: 12px 20px;
+    color: var(--color-primary);
+}
+
+.navbar-collapse .actions .signup-btn:hover {
+    background: var(--color-primary);
+    padding: 12px 20px;
+    color: var(--color-white);
+}
+/* End Navbar */
+
+/* Hero */
+.hero-section {
+    padding: 140px 0;
+    background: var(--color-secondary);
+}
+
+.hero-text-content h1 {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 120% */
+    letter-spacing: -1.2px;
+}
+
+.hero-text-content p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+
+/* End Hero */
+
+/* Feature */
+.features-section{
+    padding: 80px 0;
+
+}
+
+.features-section .feature-header h3{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    color: var(--color-primary);
+}
+
+.features-section .feature-header h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.96px;
+}
+.feature-wrapper {
+    padding-top: 64px;
+}
+
+.feature-wrapper .feature-item {
+    border: 1px solid var(--color-black);
+    padding: 64px 24px;
+}
+
+.feature-wrapper .feature-item-1 {
+    border-right: none;
+}
+
+.feature-wrapper .feature-item-2 {
+    border-right: none;
+}
+
+/* End Feature */
+
+/* About company */
+.about-company-section {
+    padding: 80px 0;
+}
+
+.about-company-text-content h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 155.556% */
+    color: var(--color-primary);
+}
+
+.about-company-text-content h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    letter-spacing: -0.96px;
+
+}
+
+.about-company-text-content p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+}
+
+/* End About company */
+
+/* Footer */
+
+.footer-logo img {
+    max-width: 200px;
+    width: 80px;
+}
+
+.list-group-item {
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+
+
+}
+
+.usefull-links a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+}
+
+.usefull-links h3, 
+.contact-information h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+}
+
+/* End Footer */
